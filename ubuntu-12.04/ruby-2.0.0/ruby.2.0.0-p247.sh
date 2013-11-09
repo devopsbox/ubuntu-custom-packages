@@ -11,6 +11,8 @@ destdir=/tmp/install-$rubyversion
 
 sudo apt-get -y install libssl-dev libreadline-dev zlib1g-dev libyaml-dev libgdbm-dev libffi-dev libncurses5-dev libxml2-dev libxslt1-dev automake libtool libc6-dev
 
+
+cd /var/tmp/
 if [ ! -f $rubysrc ]; then
     wget -q http://ftp.ruby-lang.org/pub/ruby/$rubysrc
 fi
