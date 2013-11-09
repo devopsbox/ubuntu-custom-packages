@@ -8,4 +8,6 @@ This repository contains scripts that compile software and package them to DEB-p
   - Varnish 3.0.4
   - OpenResty (Nginx + Lua)
   - Redis
+  - Tinc VPN
+
 
