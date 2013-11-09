@@ -319,4 +319,4 @@ usr/local/
 
 
 apt-get remove ruby rubygems -y
-apt-get autoremove
+apt-get autoremove -y
