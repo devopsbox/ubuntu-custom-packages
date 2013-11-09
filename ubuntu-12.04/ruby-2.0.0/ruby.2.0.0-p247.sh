@@ -51,11 +51,6 @@ apt-get remove ruby rubygems -y
 apt-get autoremove -y
 dpkg -i ruby-2*.deb
 
-# copy to vagrant pkg folder, if present
-if [ -e /vagrant/pkg ]; then
-  cp ruby-2*.deb /vagrant/pkg
-fi
-
 ## update the available executables available within one of the $PATH
 hash -r
 
