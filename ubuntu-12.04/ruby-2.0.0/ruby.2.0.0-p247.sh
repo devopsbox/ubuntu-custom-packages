@@ -32,6 +32,10 @@ cd ..
 
 apt-get install ruby rubygems -y
 gem1.8 install fpm --no-ri --no-rdoc
+
+mkdir -p /vagrant/pkg
+cd /vagrant/pkg
+
 fpm -s dir -t deb -n ruby$version -v $rubyversion -C $destdir \
   -p ruby-VERSION_ARCH.deb -d "libstdc++6 (>= 4.4.3)" \
   -d "libc6 (>= 2.6)" -d "libffi6 (>= 3.0.10)" -d "libgdbm3 (>= 1.8.3)" \
