@@ -16,3 +16,14 @@ This repository contains scripts that compile software and package them to DEB-p
   - OpenResty (Nginx + Lua)
   - Redis
   - Tinc VPN
+
+
+## Resulting files can be found here:
+  - https://sourceforge.net/projects/mindreframerpackages/files/?source=navbar
+
+
+## List
+
+  http://master.dl.sourceforge.net/project/mindreframerpackages/varnish-3.0.4.ubuntu.12.04_amd64.deb
+  http://master.dl.sourceforge.net/project/mindreframerpackages/ruby-2.0.0-p247_amd64.deb
+  http://master.dl.sourceforge.net/project/mindreframerpackages/nginx_1.2.8-2.ubuntu.12.04_amd64.deb
