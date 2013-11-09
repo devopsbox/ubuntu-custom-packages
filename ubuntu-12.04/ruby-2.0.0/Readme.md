@@ -12,9 +12,9 @@
 
 ## Usage
 
-    git clone ...
-    cd ruby-packages
-    ./ubuntu/ruby.2.0.0-p247.sh
+    git clone https://github.com/devopsbox/ubuntu-custom-packages.git
+    cd ubuntu-custom-packages
+    ./ubuntu-12.04/ruby.2.0.0-p247.sh
 
 
 ## Test package installation
