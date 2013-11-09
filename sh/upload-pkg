@@ -2,6 +2,6 @@
 
 # http://master.dl.sourceforge.net/project/mindreframerpackages/....
 # remove osx files
-find pkg|grep .DS |xargs rm
+find /vagrant/pkg|grep .DS |xargs rm
 # upload binaries folder
-rsync -rv pkg/ -e ssh mindreframer@frs.sourceforge.net:/home/frs/project/mindreframerpackages/
+rsync -rv /vagrant/pkg/ -e ssh mindreframer@frs.sourceforge.net:/home/frs/project/mindreframerpackages/
