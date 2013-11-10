@@ -11,8 +11,12 @@ apt-get install -y libssl-dev
 
 cd /var/tmp
 
-git clone https://github.com/gsliepen/tinc.git
+if [ ! -d tinc ]; then
+  git clone https://github.com/gsliepen/tinc.git
+fi
+
 cd tinc
+git fetch
 git checkout release-$release_version
 autoreconf -fsi
 ./configure --prefix=
