@@ -58,5 +58,11 @@ This repository contains scripts that compile software and package them to DEB-p
 
 ## Install Nginx
 
+    # 1.2.8
     wget http://master.dl.sourceforge.net/project/mindreframerpackages/nginx_1.2.8-2.ubuntu.12.04_amd64.deb
     gdebi -n nginx_1.2.8-2.ubuntu.12.04_amd64.deb
+
+    # 1.4.3
+    wget http://master.dl.sourceforge.net/project/mindreframerpackages/nginx_1.4.3.1-1.ubuntu.12.04_amd64.deb
+    gdebi -n nginx_1.4.3.1-1.ubuntu.12.04_amd64.deb
+
