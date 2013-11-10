@@ -28,6 +28,7 @@ cd /vagrant/pkg
 
 fpm -s dir -t deb -n tinc -v $release_version -C $destdir \
   -p tinc-VERSION_ARCH.deb \
+  --force \
   -d "zlibc (>= 0.9)" \
   -d "zlib1g (>= 1:1.2.3.4)" \
   -d "libssl-dev (>= 1.0.1)" \
