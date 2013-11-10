@@ -32,7 +32,7 @@ mkdir -p /vagrant/pkg
 cd /vagrant/pkg
 
 fpm -s dir -t deb -n tinc -v $release_version -C $destdir \
-  -p tinc-VERSION_ARCH.deb \
+  -p tinc-VERSION.ubuntu.12.04_ARCH.deb \
   --force \
   -d "zlibc (>= 0.9)" \
   -d "zlib1g (>= 1:1.2.3.4)" \

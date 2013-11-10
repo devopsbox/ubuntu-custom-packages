@@ -37,7 +37,7 @@ mkdir -p /vagrant/pkg
 cd /vagrant/pkg
 
 fpm -s dir -t deb -n ruby$version -v $rubyversion -C $destdir \
-  -p ruby-VERSION_ARCH.deb -d "libstdc++6 (>= 4.4.3)" \
+  -p ruby-VERSION.ubuntu.12.04_ARCH.deb -d "libstdc++6 (>= 4.4.3)" \
   -d "libc6 (>= 2.6)" -d "libffi6 (>= 3.0.10)" -d "libgdbm3 (>= 1.8.3)" \
   -d "libncurses5 (>= 5.7)" -d "libreadline6 (>= 6.1)" \
   -d "libssl1.0.0 (>= 1.0.1)" -d "zlib1g (>= 1:1.2.2)" \
