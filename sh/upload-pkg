@@ -4,4 +4,4 @@
 # remove osx files
 find /vagrant/pkg|grep .DS |xargs rm
 # upload binaries folder
-rsync -rv /vagrant/pkg/ -e ssh mindreframer@frs.sourceforge.net:/home/frs/project/mindreframerpackages/
+rsync --exclude='*.gitkeep' -rv /vagrant/pkg/ -e ssh mindreframer@frs.sourceforge.net:/home/frs/project/mindreframerpackages/
