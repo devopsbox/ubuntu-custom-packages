@@ -19,6 +19,7 @@ cd tinc
 git fetch
 git checkout release-$release_version
 autoreconf -fsi
+make clean
 ./configure --prefix=
 make
 make install DESTDIR=$destdir
