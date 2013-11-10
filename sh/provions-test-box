@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+if [ ! -e /var/tmp/apt-get-updated ]; then
+  apt-get update && touch /var/tmp/apt-get-updated
+fi
