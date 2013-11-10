@@ -23,17 +23,17 @@ Vagrant.configure("2") do |config|
     ]
   end
 
-  config.vm.define 'box1' do |c|
+  config.vm.define 'build-box' do |c|
     c.vm.hostname = "box1"
     c.vm.box      = "precise64"
     c.vm.network :private_network, ip: "192.168.251.101"
-    c.vm.provision :shell, :path => "sh/provision"
+    c.vm.provision :shell, :path => "sh/provision-build-box"
   end
 
-  config.vm.define 'box2' do |c|
+  config.vm.define 'test-box' do |c|
     c.vm.hostname = "box2"
     c.vm.box      = "precise64"
     c.vm.network :private_network, ip: "192.168.251.102"
-    c.vm.provision :shell, :path => "sh/provision"
+    c.vm.provision :shell, :path => "sh/provision-test-box"
   end
 end
