@@ -2,7 +2,7 @@
 
 release_version='1.0.23'
 destdir=/tmp/install-tinc-$release_version
-apt-get install -y build-essential
+apt-get install -y build-essential autoconf
 apt-get install -y texinfo
 apt-get install -y zlibc zlib1g zlib1g-dev
 apt-get install -y liblzo2-dev
