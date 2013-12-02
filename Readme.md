@@ -57,8 +57,8 @@ This repository contains scripts that compile software and package them to DEB-p
     gdebi -n varnish-3.0.4.ubuntu.12.04_amd64.deb
 
 ## Install Redis
-    wget http://master.dl.sourceforge.net/project/mindreframerpackages/redis-2.8.0-rc6.ubuntu.12.04_amd64.deb
-    gdebi -n redis-2.8.0-rc6.ubuntu.12.04_amd64.deb
+    wget http://master.dl.sourceforge.net/project/mindreframerpackages/redis-2.8.2.ubuntu.12.04_amd64.deb
+    gdebi -n redis-2.8.2.ubuntu.12.04_amd64.deb
 
 ## Install Nginx
 

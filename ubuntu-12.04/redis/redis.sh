@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-release_version='2.8.0-rc6'
+release_version='2.8.2'
 destdir=/tmp/install-redis-$release_version
 apt-get install -y build-essential
 
