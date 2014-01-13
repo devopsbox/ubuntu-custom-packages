@@ -50,7 +50,7 @@ rm -r $destdir
 
 apt-get remove ruby rubygems -y
 apt-get autoremove -y
-dpkg -i ruby-2*.deb
+dpkg -i ruby-2.0*.deb
 
 ## update the available executables available within one of the $PATH
 hash -r

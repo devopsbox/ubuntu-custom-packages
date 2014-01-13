@@ -43,7 +43,7 @@ This repository contains scripts that compile software and package them to DEB-p
     wget http://master.dl.sourceforge.net/project/mindreframerpackages/tinc-1.0.23.ubuntu.12.04_amd64.deb
     gdebi -n tinc-1.0.23.ubuntu.12.04_amd64.deb
 
-## Install Ruby 2.0
+## Install Ruby
     ## ruby 2.0.0-p247
     wget http://master.dl.sourceforge.net/project/mindreframerpackages/ruby-2.0.0-p247.ubuntu.12.04_amd64.deb
     gdebi -n ruby-2.0.0-p247.ubuntu.12.04_amd64.deb
@@ -51,6 +51,11 @@ This repository contains scripts that compile software and package them to DEB-p
     ## ruby 2.0.0-p353
     wget http://master.dl.sourceforge.net/project/mindreframerpackages/ruby-2.0.0-p353.ubuntu.12.04_amd64.deb
     gdebi -n ruby-2.0.0-p353.ubuntu.12.04_amd64.deb
+
+    ## ruby 2.1.0
+    wget http://master.dl.sourceforge.net/project/mindreframerpackages/ruby-2.1.0.ubuntu.12.04_amd64.deb
+    gdebi -n ruby-2.1.0.ubuntu.12.04_amd64.deb
+
 
 ## Install Varnish 3
 
