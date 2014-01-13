@@ -15,6 +15,7 @@ This repository contains scripts that compile software and package them to DEB-p
     ./ubuntu-12.04/openresty/*.sh
     ./ubuntu-12.04/redis/*.sh
     ./ubuntu-12.04/ruby-2.0.0/*.sh
+    ./ubuntu-12.04/ruby-2.1.0/*.sh
     ./ubuntu-12.04/tinc/*.sh
     ./ubuntu-12.04/varnish/*.sh
 
